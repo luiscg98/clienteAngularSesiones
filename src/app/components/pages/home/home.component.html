@@ -1,0 +1,5 @@
+<div *ngIf="token != null">
+    <button [routerLink]="['/login']" (click)="cerrarsesion()">CERRAR SESION</button>
+    <button (click)="cusuarios()">conseguir usuarios</button>
+    <div>{{usuarios | json}}</div>
+</div>

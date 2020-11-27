@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="col-3"></div>
+    <div class="col-6">
+        <div class="row">
+            <div class="col-12">
+                <input placeholder="username" class="w-100" #Username type="text">
+            </div>
+            <div class="col-12">
+                <input placeholder="password" class="w-100" #Password type="text">
+            </div>
+            <div class="col-12">
+                <button (click)="login(Username.value, Password.value)" class="btn btn-outline-dark w-100">ENTRAR</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-3"></div>
+</div>
